@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s https://api.github.com/)",
+      "Bash(python3 -c \"import sys,json; r=json.load\\(sys.stdin\\); print\\(''API reachable:'', ''current_user_url'' in r\\)\")"
+    ]
+  }
+}
