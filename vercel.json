@@ -1,9 +1,7 @@
 {
   "rewrites": [
+    { "source": "/", "destination": "/index.html" },
     { "source": "/vipcoaching", "destination": "/index.html" },
     { "source": "/vipcoaching/", "destination": "/index.html" }
-  ],
-  "redirects": [
-    { "source": "/", "destination": "/vipcoaching", "permanent": false }
   ]
 }
